@@ -1,0 +1,5 @@
+<!-- <img [src]="coracaoVazio" alt="coracao" >
+<img [src]="coracaoVazio" alt="coracao" >
+<img [src]="coracaoVazio" alt="coracao" > -->
+
+<img *ngFor="let coracao of coracoes" [src]="coracao.displayCoracao()"/>
